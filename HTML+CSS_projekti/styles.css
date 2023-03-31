@@ -1,0 +1,140 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+.positioned {
+    position: sticky;
+    top: 0;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+body{
+    margin: 0 1% 0 1%;
+    height: 100%;
+}
+div {
+}
+header {
+    display: flex;
+}
+
+
+
+h1 {
+    background-color: #0f5ae1;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+}
+h1 img {
+    height: 3rem;
+    width: auto;
+    text-align: left;
+}
+nav {
+    margin: 0;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+
+}
+
+li a {
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #ffff00;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgba(255, 255, 0, 0.63);
+}
+main {
+    display: flex;
+}
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url("https://images.pexels.com/photos/7194915/pexels-photo-7194915.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    padding-bottom: 100px;
+}
+section h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+    font-size: xx-large;
+}
+section p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem 4rem 1rem 4rem;
+}
+section p img {
+    height:auto;
+    width: auto;
+}
+td {
+    padding: 0;
+    border-collapse: collapse;
+
+
+}
+
+img {
+    width: 50%;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+article {
+    width: calc(100% / 5);
+    flex-wrap: wrap;
+    margin: 0;
+    border: 1px beige solid;
+    border-radius: 8px;
+    background-color: beige;
+    height: min-content;
+
+}
+h3 {
+    text-align: center;
+    margin: 0;
+}
+h4 {
+    padding: 200px;
+    width: 100%;
+    display: block;
+}
+
+figure {
+    border: 1px beige solid;
+    border-radius: 8px;
+    background-color: beige;
+    margin: 0;
+}
+
+figure img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+
+}
+article p {
+    padding: 0;
+}
+figcaption {
+    color: #646161;
+}
